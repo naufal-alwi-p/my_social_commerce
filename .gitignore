@@ -46,3 +46,7 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# --dart-define-from-file config
+/*.config.json
+!/template.config.json
