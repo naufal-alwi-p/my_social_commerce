@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class LoginForm extends StatelessWidget {
   const new({super.key});
@@ -11,7 +12,7 @@ class LoginForm extends StatelessWidget {
         Text('Ini Form Login', textAlign: TextAlign.center),
         ElevatedButton(
           onPressed: () {
-            print('Ini diklik');
+            context.push('/products');
           },
           child: Text('Login'),
         ),
