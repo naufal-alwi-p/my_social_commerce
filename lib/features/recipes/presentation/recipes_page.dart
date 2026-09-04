@@ -7,7 +7,7 @@ class RecipesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('My Social Commerce'),
+        title: Text('My Social Commerc'),
       ),
       body: Center(
         child: Text('Ini Halaman Recipes'),
